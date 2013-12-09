@@ -2,6 +2,13 @@
 
 require_once 'cultuurnet.civix.php';
 
+function cultuurnet_civicrm_post ($op, $objectName, $objectId, &$objectRef ) {
+  if (objectName = "Event") {
+    die ("saving event");
+  }
+}
+
+
 /**
  * Implementation of hook_civicrm_config
  */
